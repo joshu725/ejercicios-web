@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color RGB con Sliders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <div class="color">
+            <label for="red">Red</label>
+            <input id="red" type="range" min="0" max="255" value="23" step="1">
+            <p id="red-text"></p>
+        </div>
+        <div class="color">
+            <label for="green">Green</label>
+            <input id="green" type="range" min="0" max="255" value="41" step="1">
+            <p id="green-text"></p>
+        </div>
+        <div class="color">
+            <label for="blue">Blue</label>
+            <input id="blue" type="range" min="0" max="255" value="56" step="1">
+            <p id="blue-text"></p>
+        </div>
+        <p class="hex">#311222</p>
+    </main>
+</body>
+</html>
