@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chronometer</title>
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="app.js" defer></script>
+        <!-- Iconos de Bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+    </head>
+    <body>
+        <main class="main-container">
+            <div class="secondary-container">
+                <div id="chronometer">00:00:00</div>
+                <div class="buttons-container">
+                    <button id="button-start-pause" class="button start">
+                        <i class="bi bi-play"></i>
+                    </button>
+                    <button id="button-restart" class="button">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
